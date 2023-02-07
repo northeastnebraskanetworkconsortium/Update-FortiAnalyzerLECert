@@ -9,7 +9,7 @@ This script uses the Posh-Acme module to RENEW a LetsEncrypt certificate, and th
 This requires Posh-Acme to be preconfigured. The easiest way to do so is with the following command:
     New-PACertificate -Domain fg.example.com,fgt.example.com,vpn.example.com -AcceptTOS -Contact me@example.com -DnsPlugin Cloudflare -PluginArgs @{CFAuthEmail="me@example.com";CFAuthKey='xxx'}
 .LINK
-https://github.com/SoarinFerret/Posh-FGT-LE
+Adapted from: https://github.com/SoarinFerret/Posh-FGT-LE
 #>
 
 
